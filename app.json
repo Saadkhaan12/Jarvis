@@ -1,7 +1,7 @@
 {
     "name": "Jarvis",
     "version":"2.5.0",
-    "description": "Jarvis Multi Device whatsapp bot",
+    "description": "Swati Multi Device whatsapp bot",
     "logo": "https://i.imgur.com/PmfMtfa.jpeg",
     "keywords": ["whatsapp"],
     "repository": "https://github.com/Loki-Xer/Jarvis",
@@ -53,7 +53,7 @@
             "required": true
         },
         "HEROKU_API_KEY": {
-            "description": "Heroku account api key, https://dashboard.heroku.com/account",
+            "description": "HRKU-AAbiITJdPfHd4zDpMSrjSFA3ddJbDVTAWy0A32VrOybg_____wIRGKnkPZWE",
             "required": true
         },
         "STICKER_PACKNAME": {
@@ -64,7 +64,7 @@
         "SUDO": {
             "description": "owner number of the bot",
             "required": false,
-            "value":"4915252819677"
+            "value":"923409068757"
         },
         "ALLWAYS_ONLINE": {
             "description": "show bot number last seen as online",
