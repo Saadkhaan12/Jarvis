@@ -13,7 +13,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@whiskeysockets/baileys": "^6.7.17",
+        "@whiskeysockets/baileys": "*",
         "async-lock": "^1.4.1",
         "browser-id3-writer": "^4.4.0",
         "cheerio": "^1.0.0",

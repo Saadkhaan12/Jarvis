@@ -29,8 +29,9 @@ const {
 System({
       pattern: 'video',
       fromMe: isPrivate,
-      desc: 'YouTube video downloader',
       type: 'download',
+      alias: ['ytv'],
+      desc: 'YouTube video downloader'
 }, async (message, match) => {
       match = match || message.reply_message.text;
       if (!match) return await message.reply('_Give a YouTube video *Url* or *Query*_');
@@ -47,7 +48,7 @@ System({
       }
 });
 
-System({
+/*System({
     pattern: 'ytv ?(.*)',
     fromMe: isPrivate,
     desc: 'Download YouTube videos',
@@ -69,7 +70,7 @@ System({
         const qualities = data.download.map((item, index) => `${index + 1}. ${item.quality}`).join('\n');
         return await message.reply(`_*${data.title}*_\n\nAvailable qualities:\n${qualities}\n\n*Reply with the number to download the video in that quality*\n✧${url}`);
     }
-});
+}); */
 
 System({
       pattern: 'yta ?(.*)',
