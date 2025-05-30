@@ -46,7 +46,7 @@
         "WORK_TYPE": {
             "description": "worker type public or private",
             "required": true,
-            "value":"private"
+            "public"
         },
         "HEROKU_APP_NAME": {
             "description": "heroku app name, same as above entered",
@@ -63,7 +63,7 @@
         },
         "SUDO": {
             "description": "owner number of the bot",
-            "required": false,
+            "required": true,
             "value":"923409068757"
         },
         "ALLWAYS_ONLINE": {
