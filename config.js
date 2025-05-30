@@ -28,7 +28,7 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || '',
   LANG: (process.env.LANGUAGE || 'EN').toLowerCase(),
   ELEVENLABS: process.env.ELEVENLABS || "sk_c7a40b212be5570d6f554646775093fff80c7cae637bdc94",
-  HANDLERS: (process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || "^[,.!]").trim(),
+  HANDLERS: (process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || ".,!").trim(),
   ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
   READ_MSG: toBool(process.env.READ_MSG || "false"),
   BRANCH: "main",
